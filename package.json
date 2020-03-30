@@ -1,0 +1,19 @@
+{
+  "name": "react-native-desktop-qt",
+  "version": "1.0.0",
+  "description": "React native for desktop",
+  "main": "Platform.desktop-qt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkjr/react-native-desktop-qt.git"
+  },
+  "author": "Volodymyr Kozieiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkjr/react-native-desktop-qt/issues"
+  },
+  "homepage": "https://github.com/vkjr/react-native-desktop-qt#readme"
+}
