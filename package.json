@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/vkjr/react-native-desktop-qt/issues"
   },
-  "homepage": "https://github.com/vkjr/react-native-desktop-qt#readme"
+  "homepage": "https://github.com/vkjr/react-native-desktop-qt#readme",
+  "rnpm": {
+    "haste": {
+      "providesModuleNodeModules": ["react-native-desktop-qt"],
+      "platforms": ["desktop-qt"]
+    }
+  }
 }
