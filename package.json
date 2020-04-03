@@ -20,6 +20,7 @@
     "haste": {
       "providesModuleNodeModules": ["react-native-desktop-qt"],
       "platforms": ["desktop-qt"]
-    }
+    },
+    "plugin": "./local-cli/index.js"
   }
 }
