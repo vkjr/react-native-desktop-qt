@@ -18,8 +18,8 @@ if(JAVASCRIPTCORE_ENABLED)
   set(CMAKE_CXX_EXTENSIONS OFF)
 endif()
 
-set(APP_NAME HelloWorld)
-set(JS_APP_NAME HelloWorld)
+set(APP_NAME <%=name%>)
+set(JS_APP_NAME <%=name%>)
 set(REACT_BUILD_STATIC_LIB ON)
 
 if (WIN32)

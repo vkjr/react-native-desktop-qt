@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const chalk = require('chalk');
 const copyProjectTemplateAndReplace = require('./generator-desktop').copyProjectTemplateAndReplace;
 
 /**
@@ -11,8 +12,6 @@ const copyProjectTemplateAndReplace = require('./generator-desktop').copyProject
  * @param  {String} name       name of the root JS module for this app
  */
 function generateDesktop (projectDir, name) {
-
-  console.log(chalk.white.bold(`Creating ${projectDir}`));
 
   if (!fs.existsSync(projectDir)) {
     fs.mkdirSync(projectDir);
@@ -25,4 +24,3 @@ function generateDesktop (projectDir, name) {
 }
 
 module.exports = generateDesktop;
-
