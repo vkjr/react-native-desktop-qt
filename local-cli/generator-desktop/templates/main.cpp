@@ -135,7 +135,7 @@ private:
     QString m_packagerHost = "localhost";
     QString m_packagerPort = "8081";
     QString m_localSource;
-    QString m_packagerTemplate = "http://%1:%2/index.desktop.bundle?platform=desktop&dev=true";
+    QString m_packagerTemplate = "http://%1:%2/index.bundle?platform=desktop-qt&dev=true";
     QUrl m_codeLocation;
     QString m_pluginsPath;
     QString m_executor = "RemoteServerConnection";
